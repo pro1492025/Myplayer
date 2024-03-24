@@ -7,7 +7,7 @@
 <link rel="icon" href="icon/min.logo.jpeg">
 </head>
 <body>
-    <a href="login.html">
+    <a href="index.html">
           <div style="display: flex;justify-content: center;">
   <img src="icon/logo.svg" alt="" style="height: 50px;">    
    </div>
@@ -150,8 +150,19 @@ let Sbmit=document.querySelector('.gopage')
 
 
 Sbmit.addEventListener('click',()=>{
-    localStorage.setItem('Xname',Uname.value)
-close()
+
+if(Uname.value == '' || Uname.value == ' '){
+    location.reload()
+}else if(Pname.value == '' || Pname.value == ' '){
+    location.reload()
+}else{
+localStorage.setItem('Fuckname',Uname.value)
+window.location.href="index.html"
+
+}
+
+
+
 })
 
     </script>
