@@ -195,22 +195,30 @@ let Mutes ='off'
 //log in
  let Usercoll = document.querySelector('.User-icon')
 let logshow='off'
-let logtext=document.querySelector('.User-text button')
-let Uono=localStorage.getItem('Xname')
+let logtext=document.querySelector('.User-text div')
+let FuckN=localStorage.getItem('Fuckname')
 
 
-    if(localStorage.getItem('Xname') == null || localStorage.getItem('Xname') == ''){
-   logtext.innerHTML='<a href="login.html" target="_blank">LOG IN</a>'
-}else{
-  document.querySelector('.User-text span').innerText=`${Uono}`
-  Usercoll.innerText=`${Uono[0].toUpperCase()}`  
-  logtext.innerText ='LOG OUT'
-  
+   
+if(FuckN == null || FuckN == '' || FuckN == undefined){
+  logtext.innerHTML='<button onclick="logIn()">LOG IN</button>'
+  }else{
+
+  document.querySelector('.User-text span').innerText=`${FuckN}`
+  Usercoll.innerText=`${FuckN[0].toUpperCase()}`  
+  logtext.innerHTML='<button onclick="logOut()">LOG OUT</button>'
+
 }
-function lognext(){
-localStorage.removeItem('Xname')
-  location.reload()
+function logIn() {
+  window.location.href="login.html"
 }
+function logOut() {
+  localStorage.removeItem('Fuckname')
+  localStorage.clear()
+  location.reload() 
+
+}
+
 function logonoff(){
 
   if( logshow == 'off'){
