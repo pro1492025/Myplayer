@@ -205,11 +205,12 @@ let Uono=localStorage.getItem('Xname')
   document.querySelector('.User-text span').innerText=`${Uono}`
   Usercoll.innerText=`${Uono[0].toUpperCase()}`  
   logtext.innerText ='LOG OUT'
-  localStorage.removeItem('Xname')
+  
+}
+function lognext(){
+localStorage.removeItem('Xname')
   location.reload()
 }
-
-
 function logonoff(){
 
   if( logshow == 'off'){
