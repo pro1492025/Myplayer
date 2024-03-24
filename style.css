@@ -387,7 +387,8 @@ height: 0px;
     height: 150px;
     width: 250px;
     color: #fff;
-    background-color:black;
+    background:linear-gradient(#5500fe91,#1900ff);
+    background-attachment: initial;
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     border-radius:10px ;
@@ -407,12 +408,9 @@ height: 0px;
 text-decoration: none;
 color: #fff;
 }
-.User-text button a:hover{
-    color: #000000;
-}
+
 .User-text button:hover{
-    background-color: #fff;
-    color: #000000;
+background-color: lawngreen;
 }
 .User-icon{
     position: fixed;
@@ -425,7 +423,7 @@ color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color:violet;
+    background:linear-gradient(#5500fe91,#1900ff);
     color: #fff;
     font-family: 'Poppins', sans-serif;
     padding: 5px;
