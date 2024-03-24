@@ -1,0 +1,149 @@
+{
+"music":[
+    {
+        "Tsong" : "ALan Walker - Darkside" ,
+        "Src" : "files/song/Alan_Walker_-_Darkside__Lyrics__ft._Au_Ra_and_Tomine_Harket(256k).mp3",
+        "Asong" : "Alan Walker",
+        "Isong" : "files/img/dark.jpg"
+    },
+    {
+        "Tsong" : "Bad Boy",
+        "Src" : "files/song/Marwa_Loud_-_Bad_Boy_(Clip_Officiel)(256k).mp3",
+        "Asong" : "Marwa Loud",
+        "Isong" : "files/img/hazbin-1.jpg"
+    }, 
+    {
+        "Tsong" : "Bad guy" ,
+        "Src" : "files/song/Billie_Eilish_-_bad_guy_(Lyrics)(256k).mp3",
+        "Asong" : "Billie_Eilish",
+        "Isong" : "files/img/wom.jpg"
+    },
+    {
+        "Tsong" : "BOYTOY" ,
+        "Src" : "files/song/Halle_Abadi_-_BOYTOY_(Lyrics)(256k).mp3",
+        "Asong" : "Halle Abadi",
+        "Isong" : "files/img/pro-1.jpg"
+    },
+    {
+        "Tsong" : "Bones-Imagine Dragons" ,
+        "Src" : "files/song/Imagine_Dragons_-_Bones_(Official_Music_Video)(256k).mp3",
+        "Asong" : "Imagine Dragons",
+        "Isong" : "files/img/mr.jpg"
+    },
+    {
+        "Tsong" : "Bubblegum Bitch" ,
+        "Src" : "files/song/Bubblegum Bitch - Marina & The Diamonds [Vietsub + Lyrics].m4a",
+        "Asong" : "Marina & The Diamonds",
+        "Isong" : "files/img/bitch.png"
+    },
+    {
+        "Tsong" : "Build a Bitch",
+        "Src" : "files/song/Bella Poarch - Build a B_tch (Lyrics) ( 128kbps ).mp3",
+        "Asong" : "Bella Poarch",
+        "Isong" : "files/img/bitch-1.png"
+    },
+    {
+        "Tsong" : "Cure For Me",
+        "Src" : "files/song/AURORA_-_Cure_For_Me_(Official_Video)(256k).mp3",
+        "Asong" : "AURORA",
+        "Isong" : "files/img/song.jpg"
+    } 
+    ,{
+        "Tsong" : "Devil Eyes",
+        "Src" : "files/song/Hippie_Sabotage_-_Devil_Eyes___350Z_Showtime(256k).mp3",
+        "Asong" : "Hippie_Sabotage",
+        "Isong" : "files/img/ele.jpg"
+    },
+    {
+        "Tsong" : "Don_t wake me I_m not dreaming" ,
+        "Src" : "files/song/Don_t wake me I_m not dreaming _ sapientdream - past lives lirik terjemahan indonesia.m4a",
+        "Asong" : "sapientdream",
+        "Isong" : "files/img/no-cry.jpg"
+    },
+    {
+        "Tsong" : "Hideaway" ,
+        "Src" : "files/song/Hazbin Hotel Verbalase and Charlie hideaway original video.m4a",
+        "Asong" : "unknow",
+        "Isong" : "files/img/charlie.jpg"
+    },
+    {
+        "Tsong" : "Indila - Love Story" ,
+        "Src" : "files/song/Indila - Love Story.m4a",
+        "Asong" : "unknow",
+        "Isong" : "files/img/love-2.jpg"
+    },
+    {
+        "Tsong" : "JVSTIN - CLANDESTINA" ,
+        "Src" : "files/song/JVSTIN - CLANDESTINA (TikTok Remix) LYRICS.m4a",
+        "Asong" : "unknow",
+        "Isong" : "files/img/pro.jpg"
+    },
+    {
+        "Tsong" : "Let Me Down Slowly",
+        "Src" : "files/song/Alec Benjamin - Let Me Down Slowly (Lyrics) ( 256kbps cbr ).mp3",
+        "Asong" : "Alec Benjamin",
+        "Isong" : "files/img/butiy.jpg"
+    }
+    ,{
+        "Tsong" : "Love Story - Taylor Swift" ,
+        "Src" : "files/song/Taylor Swift - Love Story (Lyrics).m4a",
+        "Asong" : "Taylor Swift",
+        "Isong" : "files/img/love.jpg"
+    },
+    {
+        "Tsong" : "Mi Mi Mi",
+        "Src" : "files/song/Serebro_-_Mi_Mi_Mi_(official_video)(256k).mp3",
+        "Asong" : "Minelli",
+        "Isong" : "files/img/mon.jpg"
+    },
+    {
+        "Tsong" : "Mr.Saxobeat" ,
+        "Src" : "files/song/Mr._Saxobeat_(Maan_Studio_Remix)(256k).mp3",
+        "Asong" : "unknow",
+        "Isong" : "files/img/bass.jpg"
+    },
+    {
+        "Tsong" : "Out For Love" ,
+        "Src" : "files/song/Out For Love _ Hazbin Hotel _ Extended Remix.m4a",
+        "Asong" : "Hazbin Hotel",
+        "Isong" : "files/img/hazbin-hotel.jpg"
+    },
+    {
+        "Tsong" : "Poison" ,
+        "Src" : "files/song/Poison Full Song _ Hazbin Hotel _ Prime Video.m4a",
+        "Asong" : "Hazbin Hotel",
+        "Isong" : "files/img/hazbin-hotel.jpg"
+    },
+    {
+        "Tsong" : "Play Date" ,
+        "Src" : "files/song/Melanie_Martinez_-_Play_Date_(Official_Audio)(256k).mp3",
+        "Asong" : "Melanie Martinez",
+        "Isong" : "files/img/date.jpg"
+    },
+    {
+        "Tsong" : "Rampampam - Minelli",
+        "Src" : "files/song/Rampampam_-_Minelli_(Lyrics)(256k).mp3",
+        "Asong" : "Minelli",
+        "Isong" : "files/img/gril.jpg"
+    },
+    {
+        "Tsong" : "Rampampam - Natti Natasha",
+        "Src" : "files/song/Natti_Natasha_x_Becky_G_-_Ram_Pam_Pam_[Official_Video](256k).mp3",
+        "Asong" : "Natti Natasha",
+        "Isong" : "files/img/ram.jpg"
+    },
+    {
+        "Tsong" : "Santiano, Nathan Evans - Wellerman",
+        "Src" : "files/song/Santiano, Nathan Evans - Wellerman (Lyric Video).m4a",
+        "Asong" : "Wellerman",
+        "Isong" : "files/img/well.jpg"
+    },
+    {
+        "Tsong" : "Who that gril",
+        "Src" : "files/song/WHO_S_THAT_GIRL_-_SHE_HULK___END_CREDIT_SONG___EPISODE_1(256k).mp3",
+        "Asong" : "she hulk",
+        "Isong" : "files/img/hazbin-2.jpg"
+    } 
+   
+]
+}

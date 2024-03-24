@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+<link rel="icon" href="icon/min.logo.jpeg">
+</head>
+<body>
+    <a href="login.html">
+          <div style="display: flex;justify-content: center;">
+  <img src="icon/logo.svg" alt="" style="height: 50px;">    
+   </div>
+        </a>
+    
+<div class="coll-login">
+<main>
+<div class="main-log">
+    <h1>Welcome</h1>
+   <span style="margin-top: 25px;">
+      <label for="Uname"><b>Username</b></label>
+       <input type="text" class="Uname" placeholder="Enter Username" maxlength="21" title="Only 20 character">
+   </span>
+   <span>
+      <label for="Pname"><b> Password</b></label>
+      <input type="text" class="Pname" placeholder="Password">
+   </span>
+<button class="gopage" >submit</button>
+</div>
+
+<div class="imglogin">
+    <img src="files/img/songer.jpg" alt="" >
+</div>
+
+</main>
+
+</div>
+
+
+ 
+<style>
+
+
+    body{
+        background:linear-gradient(#6e27fc91,#000000);
+        background-attachment:fixed;
+        
+    }
+    .coll-login{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 600px;
+    }
+    .main-log{
+        background:linear-gradient(#c800ff91,#1e00ff);
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        font-family: 'Poppins', sans-serif;
+        width: 300px;
+        height: 400px;
+        color: #fff;
+        border-radius: 20px 0px 0px 20px;
+        justify-content: center;
+       
+    }
+    .main-log span{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+    }
+    .main-log span input{
+        appearance: none;
+        padding: 12px 20px;
+width: 200px;
+height: 20px;
+font-family: 'Poppins', sans-serif;
+border: none;
+border-radius: 5px;
+}
+.main-log span input:hover{
+border:solid 3px violet;
+}
+.main-log span input:active{
+border:solid 3px violet;
+}
+.main-log span label{
+margin-bottom: 5px;
+
+}
+.main-log button{
+appearance: none;
+border: none;
+padding: 12px;
+border-radius: 10px;
+margin-top:45px;
+color: #fff;
+background-color: blueviolet;
+}
+.main-log button:hover{
+background-color: rgb(150, 69, 227);
+}
+main{
+    display: flex;
+    flex-direction: row;
+   max-width: 800px;
+   height: 400px;
+
+}
+.imglogin{
+    height: 400px;
+    max-width: 400px;
+}
+.imglogin img{
+    width: 100%;
+    height: 100%;
+    border-radius: 0px 20px 20px 0px;
+}
+@media (max-width:600px) {
+    body{
+        height: auto;
+    }
+    .coll-login{
+        height: 400px;
+        margin-top: 50px;
+    }
+    .imglogin{
+        display: none;
+    }
+    .main-log{
+        border-radius: 20px;
+        justify-content: center;
+    }
+
+    .main-log{
+        width: 250px;
+        height: 400px;   
+    }
+    .main-log span input{
+width: 150px;
+    }
+} 
+</style>
+
+    <script>
+let Uname=document.querySelector('.Uname')
+let Pname=document.querySelector('.Pname')
+let Sbmit=document.querySelector('.gopage')
+
+
+Sbmit.addEventListener('click',()=>{
+    localStorage.setItem('Xname',Uname.value)
+    open('/index.html')
+})
+
+    </script>
+</body>
+</html>
