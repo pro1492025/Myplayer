@@ -10,20 +10,22 @@
   </head>
      <body>
       
-      <center class="Logo" id="H-logo" onclick="Runs()">
+      <center class="Logo" id="H-logo" >
         <div style="color: #fff;font-size: 45px;font-weight: 550;">
-<img src="icon/logo.svg" alt="">        </div>
+<img src="icon/logo.svg" alt=""> </div>
       </center>  
     
       <main>
 
  <div class="song-coll">
    
-  <div class="User-icon" onclick="logonoff()">A
+
+  <div class="User-icon" onclick="logonoff()">
+    🤵🏻
   </div>
   <div class="User-text">
       <span>You need to login</span>
-      <button>LOG OUT</button>
+      <div><button onclick="logIn()"> </button></div>
   </div> 
 
 
@@ -141,7 +143,6 @@
 </main>
 <input style="visibility: hidden;" class="hidden-num" id="hidden-num" value="">
 
-<a href="http://"  rel="noopener noreferrer"></a>
 <script src="player.js"></script>
 </body>
 </html>
